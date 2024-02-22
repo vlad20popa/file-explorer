@@ -1,0 +1,19 @@
+.grid-controls {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr ;
+  //extract color in separate file
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px;
+
+  .controls-container {
+    display: flex;
+    font-size: 1.2rem;
+
+    .selected-spacing {
+      margin: 0 3rem 0 1rem;
+
+    }
+  }
+
+}

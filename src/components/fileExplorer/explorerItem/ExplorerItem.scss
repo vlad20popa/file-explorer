@@ -1,0 +1,26 @@
+.grid-row.item {
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &.selected{
+    background-color: rgb(0, 0, 0, 0.08);
+
+    &:hover {
+      background-color: rgb(0, 0, 0, 0.08);
+    }
+  }
+
+   &:hover {
+    background-color: rgb(0, 0, 0, 0.03);
+  }
+}
+
+.circle {
+  background: #4cc11f;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  justify-self: end;
+  align-self: center;
+  margin-right: 0.5rem;
+}
